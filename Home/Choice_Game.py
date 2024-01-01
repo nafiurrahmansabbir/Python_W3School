@@ -1,14 +1,11 @@
-import random
-x = int(random. randrange(1,2))
-# x = 2
+# import random
+from random import randint
 
-xhoixe=input("Choice any number 1 to 5: ")
+guessNumber=int(input("Enter a random number 1-5: "))
+randomNumber=randint(1,5)
 
-if(x==xhoixe):
-    print("You win the game!")
+if guessNumber==randomNumber:
+    print("\nYou are win\n")
 else:
-    print("You lose!")
-
-print(f"Random number is : {x}")
-
-
+    print("\nYou are Lose!\n")
+    print("Randam number is ",randomNumber)
