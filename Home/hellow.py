@@ -17,4 +17,4 @@ print(z)
 
 
 exit()
-print("not exicutive!")
+print("not exicutive!!")
