@@ -1,6 +1,6 @@
 # Python_W3School
 
-1.Basic:
+1.Basic: (home Directory)
     1.List
     2.Tuple
     3.Set
